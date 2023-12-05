@@ -16,7 +16,7 @@ this.withdraw = function(amount){
     else{
     console.log("Hey you have insuficient balance", this.balance)
 }
-this.isactiveactive = function(){
+this.isactive = function(){
     return this.isactive;
 }
 
@@ -32,6 +32,8 @@ let ac1= new CreateBankAccount(1234,"suraj",'savings',500);
 let ac2= new CreateBankAccount(1235,"Divya",'savings',500);
 
 let ac3= new CreateBankAccount(1234,"Pathak",'savings',500);
+
+console.log(ac1)
 
 ac1.deposit(100);
 ac1.withdraw(200);
